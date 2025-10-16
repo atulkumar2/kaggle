@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+# Keep notebooks tracked
+!*.ipynb
+
+# --- Environments ---
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# --- Packaging / build ---
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# --- Tests / Coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# --- Logs / Temp ---
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# --- ML artifacts ---
+checkpoints/
+checkpoint/
+wandb/
+mlruns/
+lightning_logs/
+*.tfevents.*
+
+tensorboard/
+
+# --- Caches ---
+.cache/
+.ipython/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Kaggle auth ---
+kaggle.json
+
+# --- Data files ---
+# Do NOT ignore CSVs by default; keep Kaggle submissions and datasets
+!*.csv
